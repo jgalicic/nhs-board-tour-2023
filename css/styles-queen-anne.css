@@ -1,0 +1,9 @@
+body { 
+  background: url('../img/victor-malyushev-w_N-XCjiM0o-unsplash-blur.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
