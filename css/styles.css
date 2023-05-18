@@ -102,7 +102,7 @@ p, a {
 	border: none;
 	border-radius: 5px;
 	font-family: 'Passion One', cursive;
-	font-size: 2em;
+	font-size: 5.2vw;
 	color: #242D2C;
 	text-shadow: none;
 }
@@ -135,14 +135,85 @@ footer p {
 }
 
 
-@media only screen and (min-width: 600px)  {
+@media only screen and (min-width: 800px)  {
+	h1 {
+		font-size: 8vw;
+	}
+	
+	h2 {
+		font-size: 4vw;
+	}
+	
+	h3 {
+		font-size: 2.5vw;
+	}
+	
+	h4 {
+		font-size: 3.5vw;
+	}
+	
+	h5 {
+		font-size: 4vw;
+	}
+	
+	h6 {
+		font-size: 8vw;
+	}
+
 	.date {
 		font-family: 'Averia Serif Libre', sans-serif;
 		font-size: 4vw;
+	}
+
+	.button-text {
+		font-size: 4.2vw;
 	}
 }
 
 
 @media only screen and (min-width: 1200px)  {
+	h1 {
+		font-size: 5em;
+	}
 	
+	h2 {
+		font-size: 4em;
+	}
+	
+	h3 {
+		font-size: 1.5em;
+	}
+	
+	h4 {
+		font-size: 3em;
+	}
+	
+	h5 {
+		font-size: 3em;
+	}
+	
+	h6 {
+		font-size: 5em;
+	}
+
+	.main-content {
+		width: 1100px;
+		margin: 0 auto;
+	}
+
+	.date {
+		font-size: 3em;
+	}
+
+	.year {
+		font-size: 3em;
+	}
+
+	.year-date {
+		font-size: 1.8em;
+	}
+
+	.button-text {
+		font-size: 2em;
+	}
 }
